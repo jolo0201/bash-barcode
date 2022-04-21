@@ -13,16 +13,14 @@ sudo apt-get install aptitude
 sudo apt-get install barcode
 ```
 
-
 ## Steps on executing the file
 - Open any Linux Terminal
 - Locate the bash file directory
-- Make sure the the script is executable with this command
+- Make sure the script is executable using this command.
 
 ```
 chmod +x ./barcode.sh
 ```
-
 - Run the file
 
 ```
@@ -30,9 +28,7 @@ chmod +x ./barcode.sh
 ```
 
 ## Code
-
 For generating barcode, use this syntax
-
 ```
 barcode -b $productCode -o $filename.jpg
 ```
